@@ -4,7 +4,9 @@ LINK_LIBRARIES(${PROJECT_NAME})
  
 
 ADD_EXECUTABLE(test_dbow2VSfbow test_dbow2VSfbow.cpp dbow2/ScoringObject.cpp dbow2/BowVector.h  dbow2/FClass.h  dbow2/FeatureVector.h   dbow2/FORB.h  dbow2/ScoringObject.h  dbow2/TemplatedVocabulary.h )
-ADD_EXECUTABLE(test_cpu_x86   test_cpu_x86.cpp   )
+ADD_EXECUTABLE(test_cpu_x86   test_cpu_x86.cpp)
+
+ADD_EXECUTABLE(test_fbow   test_fbow.cpp)
 #ADD_EXECUTABLE(test_flann test_flann.cpp  )
 #ADD_EXECUTABLE(dbow2fbow dbow2fbow.cpp    dbow2/ScoringObject.cpp)
 
